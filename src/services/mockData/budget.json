@@ -1,0 +1,102 @@
+[
+  {
+    "id": "budget_1",
+    "userId": "user_1",
+    "name": "Monthly Living Expenses",
+    "period": "monthly",
+    "categories": ["Food & Dining", "Bills & Utilities", "Transportation"],
+    "totalAmount": 2500.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-01-31T23:59:59Z"
+  },
+  {
+    "id": "budget_2",
+    "userId": "user_1", 
+    "name": "Entertainment Budget",
+    "period": "monthly",
+    "categories": ["Entertainment", "Shopping"],
+    "totalAmount": 400.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-01-31T23:59:59Z"
+  },
+  {
+    "id": "budget_3",
+    "userId": "user_1",
+    "name": "Quarterly Investment",
+    "period": "quarterly",
+    "categories": ["Investment"],
+    "totalAmount": 3000.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-03-31T23:59:59Z"
+  },
+  {
+    "id": "budget_4",
+    "userId": "user_1",
+    "name": "Weekly Groceries",
+    "period": "weekly",
+    "categories": ["Food & Dining"],
+    "totalAmount": 150.00,
+    "startDate": "2024-01-08T00:00:00Z",
+    "endDate": "2024-01-14T23:59:59Z"
+  },
+  {
+    "id": "budget_5",
+    "userId": "user_1",
+    "name": "Annual Travel Fund",
+    "period": "yearly",
+    "categories": ["Travel"],
+    "totalAmount": 5000.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-12-31T23:59:59Z"
+  },
+  {
+    "id": "budget_6",
+    "userId": "user_1",
+    "name": "Healthcare & Wellness",
+    "period": "monthly",
+    "categories": ["Healthcare"],
+    "totalAmount": 300.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-01-31T23:59:59Z"
+  },
+  {
+    "id": "budget_7",
+    "userId": "user_1",
+    "name": "Professional Development",
+    "period": "quarterly",
+    "categories": ["Education"],
+    "totalAmount": 800.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-03-31T23:59:59Z"
+  },
+  {
+    "id": "budget_8",
+    "userId": "user_1",
+    "name": "Home Maintenance",
+    "period": "monthly",
+    "categories": ["Bills & Utilities", "Other"],
+    "totalAmount": 250.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-01-31T23:59:59Z"
+  },
+  {
+    "id": "budget_9",
+    "userId": "user_1",
+    "name": "Gift & Special Occasions",
+    "period": "yearly",
+    "categories": ["Shopping", "Other"],
+    "totalAmount": 1200.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-12-31T23:59:59Z"
+  },
+  {
+    "id": "budget_10",
+    "userId": "user_1",
+    "name": "Emergency Preparedness",
+    "period": "monthly",
+    "categories": ["Savings", "Other"],
+    "totalAmount": 200.00,
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-01-31T23:59:59Z"
+  }
+]

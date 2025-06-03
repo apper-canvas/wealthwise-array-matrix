@@ -1,0 +1,127 @@
+[
+  {
+    "id": "user_1",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "currency": "USD",
+    "financialGoals": ["Emergency Fund", "Retirement Planning", "Home Purchase"],
+    "preferences": {
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "push": true,
+        "budgetAlerts": true,
+        "goalReminders": true
+      },
+      "privacy": {
+        "shareData": false,
+        "analytics": true
+      },
+      "dashboard": {
+        "defaultView": "overview",
+        "chartType": "line",
+        "timeframe": "monthly"
+      }
+    }
+  },
+  {
+    "id": "user_2",
+    "name": "Michael Chen",
+    "email": "michael.chen@email.com",
+    "currency": "USD",
+    "financialGoals": ["Investment Growth", "Debt Reduction", "Travel Fund"],
+    "preferences": {
+      "theme": "dark",
+      "notifications": {
+        "email": false,
+        "push": true,
+        "budgetAlerts": true,
+        "goalReminders": false
+      },
+      "privacy": {
+        "shareData": true,
+        "analytics": true
+      },
+      "dashboard": {
+        "defaultView": "detailed",
+        "chartType": "bar",
+        "timeframe": "weekly"
+      }
+    }
+  },
+  {
+    "id": "user_3",
+    "name": "Emily Rodriguez",
+    "email": "emily.rodriguez@email.com",
+    "currency": "USD",
+    "financialGoals": ["Education Fund", "Emergency Savings", "Business Investment"],
+    "preferences": {
+      "theme": "auto",
+      "notifications": {
+        "email": true,
+        "push": false,
+        "budgetAlerts": false,
+        "goalReminders": true
+      },
+      "privacy": {
+        "shareData": false,
+        "analytics": false
+      },
+      "dashboard": {
+        "defaultView": "simple",
+        "chartType": "pie",
+        "timeframe": "yearly"
+      }
+    }
+  },
+  {
+    "id": "user_4",
+    "name": "David Thompson",
+    "email": "david.thompson@email.com",
+    "currency": "USD",
+    "financialGoals": ["Retirement Planning", "Property Investment", "Child Education"],
+    "preferences": {
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "push": true,
+        "budgetAlerts": true,
+        "goalReminders": true
+      },
+      "privacy": {
+        "shareData": true,
+        "analytics": true
+      },
+      "dashboard": {
+        "defaultView": "overview",
+        "chartType": "area",
+        "timeframe": "quarterly"
+      }
+    }
+  },
+  {
+    "id": "user_5",
+    "name": "Lisa Wang",
+    "email": "lisa.wang@email.com",
+    "currency": "USD",
+    "financialGoals": ["Home Down Payment", "Emergency Fund", "Wedding Savings"],
+    "preferences": {
+      "theme": "dark",
+      "notifications": {
+        "email": false,
+        "push": true,
+        "budgetAlerts": true,
+        "goalReminders": true
+      },
+      "privacy": {
+        "shareData": false,
+        "analytics": true
+      },
+      "dashboard": {
+        "defaultView": "detailed",
+        "chartType": "line",
+        "timeframe": "monthly"
+      }
+    }
+  }
+]

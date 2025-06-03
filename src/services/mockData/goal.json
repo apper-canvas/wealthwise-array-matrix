@@ -1,0 +1,146 @@
+[
+  {
+    "id": "goal_1",
+    "userId": "user_1",
+    "name": "Emergency Fund",
+    "targetAmount": 10000.00,
+    "currentAmount": 8500.00,
+    "deadline": "2024-06-30",
+    "category": "savings",
+    "milestones": [
+      {"amount": 2500, "completed": true},
+      {"amount": 5000, "completed": true},
+      {"amount": 7500, "completed": true},
+      {"amount": 10000, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_2",
+    "userId": "user_1",
+    "name": "New Car Down Payment",
+    "targetAmount": 15000.00,
+    "currentAmount": 6750.00,
+    "deadline": "2024-12-31",
+    "category": "purchase",
+    "milestones": [
+      {"amount": 5000, "completed": true},
+      {"amount": 10000, "completed": false},
+      {"amount": 15000, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_3",
+    "userId": "user_1",
+    "name": "Vacation to Europe",
+    "targetAmount": 4500.00,
+    "currentAmount": 2100.00,
+    "deadline": "2024-08-15",
+    "category": "travel",
+    "milestones": [
+      {"amount": 1500, "completed": true},
+      {"amount": 3000, "completed": false},
+      {"amount": 4500, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_4",
+    "userId": "user_1",
+    "name": "Investment Portfolio Growth",
+    "targetAmount": 50000.00,
+    "currentAmount": 45230.25,
+    "deadline": "2024-12-31",
+    "category": "investment",
+    "milestones": [
+      {"amount": 25000, "completed": true},
+      {"amount": 35000, "completed": true},
+      {"amount": 45000, "completed": true},
+      {"amount": 50000, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_5",
+    "userId": "user_1",
+    "name": "Credit Card Debt Payoff",
+    "targetAmount": 0.00,
+    "currentAmount": -1707.10,
+    "deadline": "2024-09-30",
+    "category": "debt",
+    "milestones": [
+      {"amount": -2500, "completed": true},
+      {"amount": -1500, "completed": false},
+      {"amount": 0, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_6",
+    "userId": "user_1",
+    "name": "Home Improvement Fund",
+    "targetAmount": 8000.00,
+    "currentAmount": 3200.00,
+    "deadline": "2024-10-31",
+    "category": "purchase",
+    "milestones": [
+      {"amount": 2000, "completed": true},
+      {"amount": 4000, "completed": false},
+      {"amount": 6000, "completed": false},
+      {"amount": 8000, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_7",
+    "userId": "user_1",
+    "name": "Retirement Boost",
+    "targetAmount": 75000.00,
+    "currentAmount": 67890.40,
+    "deadline": "2024-12-31",
+    "category": "investment",
+    "milestones": [
+      {"amount": 60000, "completed": true},
+      {"amount": 70000, "completed": false},
+      {"amount": 75000, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_8",
+    "userId": "user_1",
+    "name": "Wedding Savings",
+    "targetAmount": 25000.00,
+    "currentAmount": 12500.00,
+    "deadline": "2025-06-30",
+    "category": "savings",
+    "milestones": [
+      {"amount": 10000, "completed": true},
+      {"amount": 15000, "completed": false},
+      {"amount": 20000, "completed": false},
+      {"amount": 25000, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_9",
+    "userId": "user_1",
+    "name": "Professional Course Certification",
+    "targetAmount": 2500.00,
+    "currentAmount": 1200.00,
+    "deadline": "2024-05-31",
+    "category": "education",
+    "milestones": [
+      {"amount": 1000, "completed": true},
+      {"amount": 2000, "completed": false},
+      {"amount": 2500, "completed": false}
+    ]
+  },
+  {
+    "id": "goal_10",
+    "userId": "user_1",
+    "name": "Health & Fitness Investment",
+    "targetAmount": 1500.00,
+    "currentAmount": 850.00,
+    "deadline": "2024-07-31",
+    "category": "other",
+    "milestones": [
+      {"amount": 500, "completed": true},
+      {"amount": 1000, "completed": false},
+      {"amount": 1500, "completed": false}
+    ]
+  }
+]

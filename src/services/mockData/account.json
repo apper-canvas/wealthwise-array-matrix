@@ -1,0 +1,92 @@
+[
+  {
+    "id": "acc_1",
+    "userId": "user_1",
+    "name": "Primary Checking",
+    "type": "checking",
+    "balance": 3250.75,
+    "institution": "Chase Bank",
+    "lastSync": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "acc_2", 
+    "userId": "user_1",
+    "name": "Savings Account",
+    "type": "savings",
+    "balance": 12840.50,
+    "institution": "Chase Bank",
+    "lastSync": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "acc_3",
+    "userId": "user_1",
+    "name": "Investment Account",
+    "type": "investment",
+    "balance": 45230.25,
+    "institution": "Fidelity",
+    "lastSync": "2024-01-14T18:00:00Z"
+  },
+  {
+    "id": "acc_4",
+    "userId": "user_1",
+    "name": "Credit Card",
+    "type": "credit",
+    "balance": -1250.80,
+    "institution": "American Express",
+    "lastSync": "2024-01-15T06:30:00Z"
+  },
+  {
+    "id": "acc_5",
+    "userId": "user_1",
+    "name": "Emergency Fund",
+    "type": "savings",
+    "balance": 8500.00,
+    "institution": "Ally Bank",
+    "lastSync": "2024-01-14T22:00:00Z"
+  },
+  {
+    "id": "acc_6",
+    "userId": "user_1",
+    "name": "Business Checking",
+    "type": "checking",
+    "balance": 5670.90,
+    "institution": "Wells Fargo",
+    "lastSync": "2024-01-15T07:15:00Z"
+  },
+  {
+    "id": "acc_7",
+    "userId": "user_1",
+    "name": "Travel Rewards Card",
+    "type": "credit",
+    "balance": -456.30,
+    "institution": "Capital One",
+    "lastSync": "2024-01-15T05:45:00Z"
+  },
+  {
+    "id": "acc_8",
+    "userId": "user_1",
+    "name": "401k Retirement",
+    "type": "retirement",
+    "balance": 67890.40,
+    "institution": "Vanguard",
+    "lastSync": "2024-01-14T20:30:00Z"
+  },
+  {
+    "id": "acc_9",
+    "userId": "user_1",
+    "name": "High Yield Savings",
+    "type": "savings",
+    "balance": 15420.85,
+    "institution": "Marcus by Goldman Sachs",
+    "lastSync": "2024-01-15T03:20:00Z"
+  },
+  {
+    "id": "acc_10",
+    "userId": "user_1",
+    "name": "Car Loan",
+    "type": "loan",
+    "balance": -18750.60,
+    "institution": "Honda Financial",
+    "lastSync": "2024-01-14T16:10:00Z"
+  }
+]

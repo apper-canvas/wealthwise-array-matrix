@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "accountId": "acc_1",
+    "amount": -89.50,
+    "date": "2024-01-15T10:30:00Z",
+    "category": "Food & Dining",
+    "description": "Whole Foods Market",
+    "type": "expense",
+    "tags": ["groceries", "weekly"]
+  },
+  {
+    "id": "2",
+    "accountId": "acc_1", 
+    "amount": 2500.00,
+    "date": "2024-01-14T09:00:00Z",
+    "category": "Income",
+    "description": "Salary Deposit",
+    "type": "income",
+    "tags": ["salary", "monthly"]
+  },
+  {
+    "id": "3",
+    "accountId": "acc_2",
+    "amount": -45.20,
+    "date": "2024-01-13T16:45:00Z",
+    "category": "Transportation",
+    "description": "Shell Gas Station",
+    "type": "expense",
+    "tags": ["gas", "vehicle"]
+  },
+  {
+    "id": "4",
+    "accountId": "acc_1",
+    "amount": -12.99,
+    "date": "2024-01-12T20:15:00Z",
+    "category": "Entertainment",
+    "description": "Netflix Subscription",
+    "type": "expense",
+    "tags": ["subscription", "streaming"]
+  },
+  {
+    "id": "5",
+    "accountId": "acc_1",
+    "amount": -156.75,
+    "date": "2024-01-11T14:22:00Z",
+    "category": "Bills & Utilities",
+    "description": "Electric Company",
+    "type": "expense",
+    "tags": ["utilities", "monthly"]
+  },
+  {
+    "id": "6",
+    "accountId": "acc_2",
+    "amount": -34.50,
+    "date": "2024-01-10T12:00:00Z",
+    "category": "Food & Dining",
+    "description": "Local Coffee Shop",
+    "type": "expense",
+    "tags": ["coffee", "lunch"]
+  },
+  {
+    "id": "7",
+    "accountId": "acc_1",
+    "amount": -299.99,
+    "date": "2024-01-09T18:30:00Z",
+    "category": "Shopping",
+    "description": "Amazon Purchase",
+    "type": "expense",
+    "tags": ["online", "electronics"]
+  },
+  {
+    "id": "8",
+    "accountId": "acc_3",
+    "amount": 500.00,
+    "date": "2024-01-08T11:00:00Z",
+    "category": "Investment",
+    "description": "Stock Dividend",
+    "type": "income",
+    "tags": ["dividend", "investment"]
+  },
+  {
+    "id": "9",
+    "accountId": "acc_1",
+    "amount": -75.00,
+    "date": "2024-01-07T19:45:00Z",
+    "category": "Healthcare",
+    "description": "Pharmacy CVS",
+    "type": "expense",
+    "tags": ["medication", "health"]
+  },
+  {
+    "id": "10",
+    "accountId": "acc_2",
+    "amount": -28.40,
+    "date": "2024-01-06T13:20:00Z",
+    "category": "Food & Dining",
+    "description": "Restaurant Dinner",
+    "type": "expense",
+    "tags": ["dining", "weekend"]
+  },
+  {
+    "id": "11",
+    "accountId": "acc_1",
+    "amount": -850.00,
+    "date": "2024-01-05T08:00:00Z",
+    "category": "Bills & Utilities",
+    "description": "Rent Payment",
+    "type": "expense",
+    "tags": ["rent", "housing"]
+  },
+  {
+    "id": "12",
+    "accountId": "acc_2",
+    "amount": -15.99,
+    "date": "2024-01-04T21:10:00Z",
+    "category": "Entertainment",
+    "description": "Spotify Premium",
+    "type": "expense",
+    "tags": ["subscription", "music"]
+  },
+  {
+    "id": "13",
+    "accountId": "acc_1",
+    "amount": 200.00,
+    "date": "2024-01-03T15:30:00Z",
+    "category": "Income",
+    "description": "Freelance Project",
+    "type": "income",
+    "tags": ["freelance", "side-income"]
+  },
+  {
+    "id": "14",
+    "accountId": "acc_3",
+    "amount": -1000.00,
+    "date": "2024-01-02T10:00:00Z",
+    "category": "Investment",
+    "description": "401k Contribution",
+    "type": "expense",
+    "tags": ["retirement", "investment"]
+  },
+  {
+    "id": "15",
+    "accountId": "acc_1",
+    "amount": -120.35,
+    "date": "2024-01-01T16:25:00Z",
+    "category": "Food & Dining",
+    "description": "New Year's Grocery Run",
+    "type": "expense",
+    "tags": ["groceries", "holiday"]
+  }
+]
