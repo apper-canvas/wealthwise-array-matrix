@@ -17,10 +17,10 @@ export default {
           light: '#34D399',
           dark: '#059669'
         },
-        accent: {
+accent: {
           DEFAULT: '#F59E0B',
           light: '#FBBF24',
-dark: '#D97706'
+          dark: '#D97706'
         },
         success: '#059669',
         error: '#DC2626',
