@@ -131,38 +131,24 @@ const Transactions = () => {
     )
   }
 
-  return (
+return (
     <div className="min-h-screen bg-gradient-to-br from-surface-50 via-primary/5 to-secondary/5">
-      {/* Header */}
-      <motion.header 
-        initial={{ y: -20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        className="fixed top-0 left-0 right-0 z-50 h-16 glass-morphism border-b border-white/20"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
-          <div className="flex items-center space-x-8">
-            <Link to="/" className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-                <ApperIcon name="TrendingUp" className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-xl font-bold text-surface-900">WealthWise</span>
-            </Link>
-          </div>
-          
-          <div className="flex items-center space-x-4">
-            <button
-              onClick={() => setShowAddModal(true)}
-              className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors flex items-center space-x-2"
-            >
-              <ApperIcon name="Plus" className="h-4 w-4" />
-              <span>Add Transaction</span>
-            </button>
-          </div>
-        </div>
-      </motion.header>
-
       {/* Main Content */}
       <main className="pt-20 pb-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        {/* Add Transaction Button */}
+        <motion.div
+          initial={{ y: -10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          className="mb-6 flex justify-end"
+        >
+          <button
+            onClick={() => setShowAddModal(true)}
+            className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors flex items-center space-x-2"
+          >
+            <ApperIcon name="Plus" className="h-4 w-4" />
+            <span>Add Transaction</span>
+          </button>
+        </motion.div>
         {/* Page Title & Filters */}
         <motion.div
           initial={{ y: 20, opacity: 0 }}

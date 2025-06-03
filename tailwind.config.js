@@ -11,18 +11,17 @@ export default {
           DEFAULT: '#2563EB',
           light: '#60A5FA',
           dark: '#1D4ED8'
-        },
+},
         secondary: {
           DEFAULT: '#10B981',
           light: '#34D399',
           dark: '#059669'
         },
-accent: {
+        accent: {
           DEFAULT: '#F59E0B',
           light: '#FBBF24',
           dark: '#D97706'
         },
-        success: '#059669',
         error: '#DC2626',
         surface: {
           50: '#f8fafc',
