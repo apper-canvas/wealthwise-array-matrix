@@ -11,13 +11,12 @@
   body {
     @apply bg-surface-50 text-surface-900 antialiased;
     font-family: 'DM Sans', ui-sans-serif, system-ui;
-  }
-
-  input, textarea, select {
-    @apply focus:outline-none focus:ring-3 focus:ring-primary/20 focus:border-primary;
-  }
 }
 
+  input, textarea, select {
+    @apply focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary;
+  }
+}
 @layer utilities {
   .scrollbar-hide {
     -ms-overflow-style: none;
