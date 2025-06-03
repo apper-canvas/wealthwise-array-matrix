@@ -2,6 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Home from './pages/Home'
+import Dashboard from './pages/Dashboard'
+import Transactions from './pages/Transactions'
+import Budgets from './pages/Budgets'
+import Goals from './pages/Goals'
 import SpendingInsights from './pages/SpendingInsights'
 import NotFound from './pages/NotFound'
 
@@ -11,6 +15,10 @@ function App() {
       <div className="min-h-screen bg-gradient-to-br from-surface-50 to-surface-100">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/transactions" element={<Transactions />} />
+          <Route path="/budgets" element={<Budgets />} />
+          <Route path="/goals" element={<Goals />} />
           <Route path="/insights" element={<SpendingInsights />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
