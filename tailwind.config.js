@@ -20,9 +20,9 @@ export default {
         accent: {
           DEFAULT: '#F59E0B',
           light: '#FBBF24',
-          dark: '#D97706'
+dark: '#D97706'
         },
-success: '#059669',
+        success: '#059669',
         error: '#DC2626',
         surface: {
           50: '#f8fafc',

@@ -97,22 +97,31 @@ const Home = () => {
               <span className="text-xl font-bold text-surface-900">WealthWise</span>
             </div>
             
-            {/* Desktop Navigation */}
+{/* Desktop Navigation */}
             <nav className="hidden lg:flex space-x-1">
-              {navigationItems.map((item) => (
-                <button
-                  key={item.id}
-                  onClick={() => setActiveTab(item.id)}
-                  className={`px-4 py-2 rounded-lg flex items-center space-x-2 transition-all duration-200 ${
-                    activeTab === item.id 
-                      ? 'bg-primary text-white shadow-lg' 
-                      : 'text-surface-700 hover:bg-white/50 hover:text-surface-900'
-                  }`}
-                >
-                  <ApperIcon name={item.icon} className="h-4 w-4" />
-                  <span className="text-sm font-medium">{item.label}</span>
-                </button>
-              ))}
+              {navigationItems.map((item) => {
+                const getRoute = (id) => {
+                  switch(id) {
+                    case 'dashboard': return '/dashboard'
+                    case 'transactions': return '/transactions'
+                    case 'budgets': return '/budgets'
+                    case 'goals': return '/goals'
+                    case 'insights': return '/insights'
+                    default: return '/'
+                  }
+                }
+
+                return (
+                  <Link
+                    key={item.id}
+                    to={getRoute(item.id)}
+                    className="px-4 py-2 rounded-lg flex items-center space-x-2 transition-all duration-200 text-surface-700 hover:bg-white/50 hover:text-surface-900"
+                  >
+                    <ApperIcon name={item.icon} className="h-4 w-4" />
+                    <span className="text-sm font-medium">{item.label}</span>
+                  </Link>
+                )
+              })}
             </nav>
           </div>
 
