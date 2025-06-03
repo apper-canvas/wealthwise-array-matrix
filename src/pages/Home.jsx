@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import ApperIcon from '../components/ApperIcon'
 import MainFeature from '../components/MainFeature'
@@ -6,7 +7,6 @@ import transactionService from '../services/api/transactionService'
 import accountService from '../services/api/accountService'
 import budgetService from '../services/api/budgetService'
 import goalService from '../services/api/goalService'
-
 const Home = () => {
   const [accounts, setAccounts] = useState([])
   const [transactions, setTransactions] = useState([])

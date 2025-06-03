@@ -22,9 +22,9 @@ export default {
           light: '#FBBF24',
           dark: '#D97706'
         },
-        success: '#059669',
+success: '#059669',
         error: '#DC2626',
-surface: {
+        surface: {
           50: '#f8fafc',
           100: '#f1f5f9',
           200: '#e2e8f0',
