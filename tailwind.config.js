@@ -33,9 +33,10 @@ export default {
           500: '#64748b',
           600: '#475569',
           700: '#334155',
-          800: '#1e293b',
+800: '#1e293b',
           900: '#0f172a'
-        }
+        },
+        border: '#e2e8f0'
       },
       fontFamily: {
         sans: ['DM Sans', 'ui-sans-serif', 'system-ui'],
