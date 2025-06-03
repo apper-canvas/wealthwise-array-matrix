@@ -135,10 +135,16 @@ const Home = () => {
         className="lg:hidden fixed bottom-0 left-0 right-0 z-50 glass-morphism border-t border-white/20"
       >
         <div className="grid grid-cols-5 h-16">
-          {navigationItems.map((item) => (
+{navigationItems.map((item) => (
             <button
               key={item.id}
-              onClick={() => setActiveTab(item.id)}
+              onClick={() => {
+                if (item.id === 'insights') {
+                  window.location.href = '/insights'
+                } else {
+                  setActiveTab(item.id)
+                }
+              }}
               className={`flex flex-col items-center justify-center space-y-1 transition-all duration-200 ${
                 activeTab === item.id ? 'text-primary' : 'text-surface-500'
               }`}
